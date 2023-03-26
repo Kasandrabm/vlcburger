@@ -1,9 +1,40 @@
-main  {
+
+body {
     background-color: goldenrod;
-    margin:0%;
+}
+
+h1 {
+    text-align:center;
+}
+
+p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 ul {
-    font-weight:  bolder;
-    color: darkred;
+    list-style-type: none;
+  }
+  
+li {
+    background-color: cornsilk;
+    float: left;
+    margin-right: 10px;
+    padding: 0 4px;
+  }
+
+img{
+    border: 5px solid;
+    width: 300px;
+    background-color: goldenrod;
+    margin:0%;
+    float: left;
+    margin: 15px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+ 
+img:hover {
+    margin-top: 2px;
+    background-color: goldenrod;
 }
